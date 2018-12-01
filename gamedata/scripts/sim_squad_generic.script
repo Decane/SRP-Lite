@@ -453,8 +453,10 @@ function sim_squad_generic:update()
 		if not is_finished then
 			return
 		end
-		self.current_action:finalize()
-		self.current_action = nil
+		if self.current_action ~= nil then
+			self.current_action:finalize()
+			self.current_action = nil
+		end
 	end
 
 	--' Если у нас нет текущей цели - просим выдать нам задание.
