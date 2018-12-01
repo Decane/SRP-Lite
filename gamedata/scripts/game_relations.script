@@ -114,7 +114,8 @@ function set_squad_goodwill(squad_id, new_goodwill)
 	    end
 	    board.squads[squad_id].relationship = new_goodwill
 	else
-		abort("There is no squad [%s] in sim_board", squad_id)
+--		abort("There is no squad [%s] in sim_board", squad_id)
+		return
 	end
 end
 
