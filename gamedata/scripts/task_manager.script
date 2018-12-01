@@ -443,8 +443,6 @@ function CRandomTask:select_task(type, obj, faction)
 		printf("!!!Return inited task type[%s] for %s, key[%s], entity_id[%s]", tostring(type), tostring(faction), tostring(key), self.inited_tasks[key].entity_id)
 		return self.inited_tasks[key]
 	end
-	local new_EId = self.id_generator:get_id()
---	printf("new_EId [%s]", tostring(new_EId))
 
 	local max_prior = -1
 	local selected_task = nil
@@ -464,6 +462,8 @@ function CRandomTask:select_task(type, obj, faction)
 --		printf("selected_task == nil")
 		return
 	end
+	local new_EId = self.id_generator:get_id()
+--	printf("new_EId [%s]", tostring(new_EId))
 	printf("!!!Init new task type[%s] for %s, key[%s], entity_id[%s]", tostring(type), tostring(faction), tostring(key), new_EId)
 	--' «аносим таск в список уже проинициализированных.
 	self.inited_tasks[key] = selected_task:get_inited_task(obj, faction, new_EId)
@@ -483,9 +483,9 @@ function CRandomTask:select_find_upgrade_task(obj, faction)
 		--' ѕровер€ем каждый из них может ли он быть выдан
 		if v:check_target(obj, faction) then
 			--' «аносим таск в список уже проинициализированных.
-			local task = v:get_inited_task(obj, faction, self.id_generator:get_id())
-			if self.inited_find_upgrade_tasks[obj:id()][task.id] == nil then
-				self.inited_find_upgrade_tasks[obj:id()][task.id] = task
+			if self.inited_find_upgrade_tasks[obj:id()][k] == nil then
+				local task = v:get_inited_task(obj, faction, self.id_generator:get_id())
+				self.inited_find_upgrade_tasks[obj:id()][k] = task
 							self.inited_tasks[tostring(faction).."_find_upgrade_"..task.entity_id] = task
 			end
 		end
