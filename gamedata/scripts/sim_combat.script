@@ -416,7 +416,9 @@ function CCombat_manager:update_actor()
 					data._inited_defend_time = game.get_game_time()
 				end
 			end
-			self.cover_manager:calculate_covers(db.actor:position())
+			if db.actor then
+				self.cover_manager:calculate_covers(db.actor:position())
+			end
 		end
 	end
 end
