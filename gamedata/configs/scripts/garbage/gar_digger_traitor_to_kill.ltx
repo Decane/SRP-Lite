@@ -20,7 +20,7 @@ on_info = {+gar_quest_kill_digger_traitor_explained} walker@caution %=set_squad_
 [walker@caution]
 path_walk = traitor_walk
 path_look = traitor_look
-on_info = {=dist_to_actor_ge(80) !actor_see_npc} walker@stop %+gar_quest_kill_digger_traitor_gone%
+on_info = {=dist_to_actor_ge(80) !actor_see_npc} %=destroy_object +gar_quest_kill_digger_traitor_gone%
 meet = meet@end
 
 [walker@stop]
