@@ -46,7 +46,7 @@ path_walk = gar_smart_terrain_3_5_bandit_leader_walk
 path_look = gar_smart_terrain_3_5_bandit_leader_look
 ;2nd iteration
 on_info = {+gar_quest_kill_smuggler_told} walker@kill_smuggler_leader
-on_info2 = {+gar_quest_kill_digger_traitor_done} walker@kill_digger_traitor_a_leader %+gar_quest_kill_smuggler_prepare%, {+gar_quest_kill_digger_traitor_gone} walker@kill_digger_traitor_b_leader %=remove_squad(gar_digger_traitor) +gar_quest_kill_smuggler_prepare%
+on_info2 = {+gar_quest_kill_digger_traitor_done} walker@kill_digger_traitor_a_leader %+gar_quest_kill_smuggler_prepare%, {+gar_quest_kill_digger_traitor_gone} walker@kill_digger_traitor_b_leader %+gar_quest_kill_smuggler_prepare%
 meet = meet@a
 
 [walker@kill_digger_traitor_a_leader]
