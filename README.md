@@ -8,6 +8,9 @@ Changes:
 - Fixed a rare crash upon a smart terrain being captured: sim_squad_generic.script:456: attempt to index field 'current_action' (a nil value). - Decane
 - Fixed a rare crash upon reloading a savegame: sim_combat.script:968: attempt to index field 'actor' (a nil value). - Decane
 - Fixed a rare crash upon reloading a savegame: sim_combat.script:419: attempt to index field 'actor' (a nil value). - Decane
+- Fixed a crash upon attempting to load a deleted savegame: ui_load_dialog.script:297: attempt to index local 'item' (a nil value). - Decane
+- Fixed a crash upon attempting to delete an already deleted savegame in the load menu: ui_load_dialog.script:249: attempt to index local 'item' (a nil value). - Decane
+- Fixed a crash upon attempting to delete an already deleted savegame in the save menu: ui_save_dialog.script:172: attempt to index local 'item' (a nil value). - Decane
 - Fixed two task entity identifier leaks which could eventually destabilize the game. - Decane
 
 ### General fixes:

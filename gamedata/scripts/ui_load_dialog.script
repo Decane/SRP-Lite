@@ -212,7 +212,9 @@ function load_dialog:OnListItemClicked()
 	if item == nil then
 		self.file_caption:SetText	("")
 		self.file_data:SetText		("")
+		local r						= picture:GetOriginalRect()
 		picture:InitTexture			("ui\\ui_noise")
+		picture:SetOriginalRect		(Frect():set(r.x1, r.y1, r.x2, r.y2))
 		return
 	end
 	
@@ -294,6 +296,11 @@ function load_dialog:OnButton_load_clicked()
 	end
 
 	local item		= self.list_box:GetItem(index)
+
+	if item == nil then
+		return
+	end
+
 	local fname		= item.fn:GetText()
 
 	if ( not valid_saved_game(fname) ) then
@@ -331,9 +338,11 @@ function load_dialog:OnButton_del_clicked()
 	if index == -1 then return end
 	
 	self.msgbox_id = 1
-	
-	self.message_box:InitMessageBox("message_box_delete_file_name")		
-	self:GetHolder():start_stop_menu(self.message_box, true)
+	local save_game = self.list_box:GetItem(index)
+	if save_game then
+		self.message_box:InitMessageBox("message_box_delete_file_name")		
+		self:GetHolder():start_stop_menu(self.message_box, true)
+	end
 end
 
 function load_dialog:OnKeyboard(dik, keyboard_action)  --virtual function
