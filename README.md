@@ -19,3 +19,4 @@ Changes:
 - Fixed Clear Sky's "Find a way to Chernobyl NPP" task not completing. - Decane
 - Fixed Freedom's "Eliminate the potential threat at the gas station" task being cancelled when the player completes the objective. - Decane
 - Fixed the "Life support system" upgrade for the Freedom Exoskeleton making the player bleed out faster rather than slower as intended. - Decane per Talrivian
+- Fixed the "Relief backpack" upgrade for various armors wrongly incrementing the carry weight tooltip value by only 5kg instead of the 15kg actually unlocked by the upgrade. - vlad54rus
