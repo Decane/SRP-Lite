@@ -10,7 +10,7 @@ point 			= stc_start_walk
 look 			= stc_start_look 
 on_timer 		= 4000 | %+stc_scene_start% 
 ;on_timer2 		= 5000 | {-stc_strelok_particles_added} %=stc_strelok_particle +stc_strelok_particles_added% 
-on_signal 		= cameff_end | sr_idle@after_cutscene %=stc_activate_weapon(wpn_gauss_aes) +stc_first_scene_cameff_end =give_inited_task(storyline:stc_kill_gunslinger:csky)%
+on_signal 		= cameff_end | sr_idle@after_cutscene %=stc_activate_weapon(wpn_gauss_aes) +stc_first_scene_cameff_end =give_inited_task(storyline:stc_kill_gunslinger:csky) +hospital_general_task_complete%
 
 [sr_idle@after_cutscene]
 on_info = %=play_sound(stc_first_scene_objective_talk)%
