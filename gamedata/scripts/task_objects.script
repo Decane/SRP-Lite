@@ -1287,8 +1287,8 @@ function CGetRewardTask:change_description()
 	end
 
 	if(self.t==nil) then
-			self.t = db.actor and db.actor:get_task(tostring(self.entity_id), false) -- "true" used to search only for not finished tasks
-			return
+			self.t = db.actor and db.actor:get_task(tostring(self.entity_id), true) -- "true" used to search only for not finished tasks
+--			return
 	end
 	self.description = s
 	if self.auto_faction then
