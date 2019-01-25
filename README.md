@@ -18,8 +18,9 @@ Changes:
 - Fixed eight stash coordinates being unattainable from the following characters due to programming mistakes: Drifter (1), General Krylov (2), Hermit (1), Hound (1), Kolobok (1), Mitay (1), Semyon Lambee (1). Notably, Drifter now offers coordinates to a stash containing the third Cordon flash drive if the player saves him from dogs. - Decane
 - Fixed Clear Sky's "Find a way to Chernobyl NPP" task not completing. - Decane
 - Fixed Freedom's "Eliminate the potential threat at the gas station" task being cancelled when the player completes the objective. - Decane
-- Fixed the "Life support system" upgrade for the Freedom Exoskeleton making the player bleed out faster rather than slower as intended. - Decane per Talrivian
+- Fixed the "Life support system" upgrade for the Freedom Exoskeleton making the player bleed out faster rather than slower as intended. - Talrivian
 - Fixed the "Relief backpack" upgrade for various armors wrongly incrementing the carry weight tooltip value by only 5kg instead of the 15kg actually unlocked by the upgrade. - vlad54rus
 - Fixed mutants not behaving aggressively on patrol paths linking them to attack-targets unless aggravated by an external force (e.g. the player). - Decane
 - Fixed the audio of an NPC's instrument-playing animation continuing to play even when the animation is interrupted by the NPC getting up intermittently. - Decane
 - Fixed faction reward tooltips failing to update to reflect new rewards after resuming progress from a savegame in which the player already has an outstanding reward from the relevant faction. - Decane
+- Fixed the HUD bleeding icon being misaligned with its background in widescreen mode. - Armada
