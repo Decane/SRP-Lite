@@ -1090,14 +1090,14 @@ function load_job(smart)
                                     "active = mob_home@"..sect_name.."\n"..
 
                                     "[mob_home@"..sect_name.."]\n"..
-                                    "agressive = true\n"..
+                                    "aggressive = true\n"..
                                     "path_home = kamp_"..it.."_task\n"..
                                     "home_min_radius = "..home_min_radius.."\n"..
                                     "home_max_radius = "..home_max_radius.."\n"..
                                     "on_info = {=npc_to_smart_dist("..target_smart..":50)} mob_home@"..sect_name.."_arrived %=request_current_squad_stage(combat)%\n"..
 
                                     "[mob_home@"..sect_name.."_arrived]\n"..
-                                    "agressive = true\n"..
+                                    "aggressive = true\n"..
                                     "path_home = kamp_"..it.."_task\n"..
                                     "home_min_radius = "..home_min_radius.."\n"..
                                     "home_max_radius = "..home_max_radius.."\n"
