@@ -2016,6 +2016,7 @@ function CRecoverItemTask:transfer_items_looking_for(npc)
 	self.npc = npc
 	db.actor:iterate_inventory(transfer_recover_item, self)
 	self.state = "finished"
+	self.last_check_task = "complete"
 end
 
 function transfer_recover_item(task, item)
