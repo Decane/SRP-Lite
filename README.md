@@ -29,7 +29,8 @@ Changes:
 - Fixed the Red Forest bridge lowering sequence becoming prematurely unlocked as soon as the player completes the "Go to the army base" task rather than only after the player has transmitted the coordinates to free Leshiy's squad from the space bubble. - Decane
 - Fixed the "Life support system" upgrade for the Freedom Exoskeleton making the player bleed out faster rather than slower as intended. - Talrivian
 - Fixed the "Relief backpack" upgrade for various armors wrongly incrementing the carry weight tooltip value by only 5kg instead of the 15kg actually unlocked by the upgrade. - vlad54rus
-- Fixed the "Barrel modification" upgrade for the Chaser 13 failing to add the 'doesn't use shot' text to the weapon information tooltip despite disabling use of buckshot. - Decane
+- Added the missing 'doesn't use shot' attribute text to the "Barrel modification" upgrade tooltip for the Chaser 13. - Decane
+- Added the missing '+15%' handling attribute quantifier text to the "Barrel modification" upgrade tooltip for the Akm 74/2U. - SetaKat
 - Fixed mutants not behaving aggressively on patrol paths linking them to attack-targets unless aggravated by an external force (e.g. the player). - Decane
 - Fixed a script typo preventing the Lost Party's PDA from being transferred to Sakharov upon talking to him following completion of the task to retrieve it. - Decane
 - Fixed the audio of an NPC's instrument-playing animation continuing to play even when the animation is interrupted by the NPC getting up intermittently. - Decane
