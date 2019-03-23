@@ -30,6 +30,7 @@ Changes:
 - Fixed the "Life support system" upgrade for the Freedom Exoskeleton making the player bleed out faster rather than slower as intended. - Talrivian
 - Fixed the "Relief backpack" upgrade for various armors wrongly incrementing the carry weight tooltip value by only 5kg instead of the 15kg actually unlocked by the upgrade. - vlad54rus
 - Fixed the upgrades unlocked by the "Flash drive with data on a psy-protection system" and the "Flash drive with data on reinforced army body armor" being swapped for the SEVA suit at the Garbage bandit mechanic. - Decane
+- Fixed the "Barrel modification" and "Gas system modification" upgrades for the RP-74 at the Agroprom Duty mechanic incorrectly being unlocked by the "Flash drive with data on balancing the automated parts of a machine gun" instead of by the "Flash drive with data on a machine gun muzzle break" and "Flash drive with data on modifying the gas exhaust of a machine gun", respectively. - Decane
 - Added the missing 'doesn't use shot' attribute text to the "Barrel modification" upgrade tooltip for the Chaser 13. - Decane
 - Added the missing '+15%' handling attribute quantifier text to the "Barrel modification" upgrade tooltip for the Akm 74/2U. - SetaKat
 - Fixed mutants not behaving aggressively on patrol paths linking them to attack-targets unless aggravated by an external force (e.g. the player). - Decane
