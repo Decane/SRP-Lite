@@ -114,7 +114,7 @@ function reset_show_spot(npc, scheme, st, section)
 	            hint = "st_ui_pda_legend_trader"
 	        elseif map_spot == "mechanic" then
 	            map_location = "ui_pda2_mechanic_location"
-	            hint = game.translate_string("st_ui_pda_legend_mechanic").."\\n"..inventory_upgrades.get_technic_specialization(npc:section())
+	            hint = game.translate_string("st_ui_pda_legend_mechanic").."\\n"..inventory_upgrades.get_technic_specialization(npc:profile_name())
 	        elseif map_spot == "guider" then
 	            map_location = "ui_pda2_scout_location"
 	            hint = "st_ui_pda_legend_scout"
