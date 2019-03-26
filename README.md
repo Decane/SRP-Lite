@@ -26,6 +26,7 @@ Changes:
 - Fixed Clear Sky's "Find a way to Chernobyl NPP" task not completing. - Decane
 - Fixed Clear Sky's "Find generator" task not completing when the player deactivates the generator in Limansk if the task is still active then. - Decane
 - Fixed Clear Sky's "Return to the group commander" task not cancelling when the player deactivates the generator in Limansk if the task is still active then. - Decane
+- Fixed Clear Sky's "Return to the group commander" task being completed immediately after being assigned each time the player receives it after initially completing it. - Decane
 - Fixed Freedom's "Eliminate the potential threat at the gas station" task being cancelled when the player completes its objective. - Decane
 - Fixed the issue where submitting the item requested in a 'return item' task would not complete the task if the player possesses multiple units of the item when submitting it. - Decane
 - Fixed the Red Forest bridge lowering sequence becoming prematurely unlocked as soon as the player completes the "Go to the army base" task rather than only after the player has transmitted the coordinates to free Leshiy's squad from the space bubble. - Decane
