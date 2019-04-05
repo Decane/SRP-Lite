@@ -676,8 +676,10 @@ function sim_board:enter_smart(squad, smart_id, after_load)
             player:calculate_squad_tasks()
         end
         self.smarts[smart_id].stayed_squad_quan = self.smarts[smart_id].stayed_squad_quan + 1
-		squad.items_spawned = false
---		squad:spawn_box_items(smart_id)
+		if not after_load then
+			squad.items_spawned = false
+--			squad:spawn_box_items(smart_id)
+		end
 end
 
 -- установить squad и group в соответствии с работой
