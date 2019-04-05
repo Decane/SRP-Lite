@@ -721,6 +721,7 @@
                 <action>dialogs_red_forest.give_compass</action>
                 <action>dialogs_red_forest.forester_reward_for_compass</action>
                 <give_info>red_forester_take_compas</give_info>
+                <give_info>forester_telled_coordinates</give_info>
                 <next>11</next>
             </phrase>
             <phrase id="11">
@@ -729,7 +730,6 @@
             </phrase>
             <phrase id="111">
                 <text>red_forester_has_compas_111</text>
-                <give_info>forester_telled_coordinates</give_info>
             </phrase>
             <phrase id="0">
                 <text>red_forester_has_compas_0</text>
