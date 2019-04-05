@@ -30,6 +30,7 @@ Changes:
 - Fixed Freedom's "Eliminate the potential threat at the gas station" task being cancelled when the player completes its objective. - Decane
 - Fixed the issue where submitting the item requested in a 'return item' task would not complete the task if the player possesses multiple units of the item when submitting it. - Decane
 - Fixed the Red Forest bridge lowering sequence becoming prematurely unlocked as soon as the player completes the "Go to the army base" task rather than only after the player has transmitted the coordinates to free Leshiy's squad from the space bubble. - Decane
+- Fixed the issue where the dialog concerning the military presence at the Cordon vehicle station could be repeated endlessly with the stalker squad on the hill overlooking it, potentially leading to the player paying the stalker squad multiple times for their assistance in dealing with the military. - Decane
 - Fixed the "Life support system" upgrade for the Freedom Exoskeleton making the player bleed out faster rather than slower as intended. - Talrivian
 - Fixed the "Relief backpack" upgrade for various armors wrongly incrementing the carry weight tooltip value by only 5kg instead of the 15kg actually unlocked by the upgrade. - vlad54rus
 - Fixed the upgrades unlocked by the "Flash drive with data on a psy-protection system" and the "Flash drive with data on reinforced army body armor" being swapped for the SEVA suit at the Garbage bandit mechanic. - Decane

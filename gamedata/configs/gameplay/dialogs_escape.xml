@@ -40,6 +40,7 @@
         </phrase_list>
     </dialog>
     <dialog id="esc_stalker_support_attack_atp">
+        <dont_has_info>esc_support_squad_attack</dont_has_info>
         <phrase_list>
             <phrase id="0">
                 <text>esc_stalker_support_attack_atp_0</text>
