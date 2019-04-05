@@ -40,7 +40,9 @@
         </phrase_list>
     </dialog>
     <dialog id="esc_stalker_support_attack_atp">
+        <precondition>dialogs_escape.army_controls_vehicle_station</precondition>
         <dont_has_info>esc_support_squad_attack</dont_has_info>
+        <dont_has_info>esc_mission_2_stalker_leader_complete</dont_has_info>
         <phrase_list>
             <phrase id="0">
                 <text>esc_stalker_support_attack_atp_0</text>
