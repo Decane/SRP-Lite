@@ -44,6 +44,7 @@ Changes:
 - Fixed the "Barrel modification" and "Gas system modification" upgrades for the RP-74 at the Agroprom Duty mechanic incorrectly being unlocked by the "Flash drive with data on balancing the automated parts of a machine gun" instead of by the "Flash drive with data on a machine gun muzzle break" and the "Flash drive with data on modifying the gas exhaust of a machine gun", respectively. - Decane
 - Added the missing 'doesn't use shot' attribute text to the "Barrel modification" upgrade tooltip for the Chaser 13. - Decane
 - Added the missing '+15%' handling attribute quantifier text to the "Barrel modification" upgrade tooltip for the Akm 74/2U. - SetaKat
+- Stopped PSI emission hit intensity doubling on save/reload (new game required). - Decane
 - Fixed mutants not behaving aggressively on patrol paths linking them to attack-targets unless aggravated by an external force (e.g. the player). - Decane
 - Fixed a script typo preventing the Lost Party's PDA from being transferred to Sakharov upon talking to him following completion of the task to retrieve it. - Decane
 - Fixed the audio of an NPC's instrument-playing animation continuing to play even when the animation is interrupted by the NPC getting up intermittently. - Decane
