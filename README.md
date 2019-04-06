@@ -45,6 +45,7 @@ Changes:
 - Added the missing 'doesn't use shot' attribute text to the "Barrel modification" upgrade tooltip for the Chaser 13. - Decane
 - Added the missing '+15%' handling attribute quantifier text to the "Barrel modification" upgrade tooltip for the Akm 74/2U. - SetaKat
 - Stopped PSI emission hit intensity doubling on save/reload (new game required). - Decane
+- Stopped PSI emission audio and visual effector intensity doubling on save/reload (new game required). - NatVac
 - Fixed mutants not behaving aggressively on patrol paths linking them to attack-targets unless aggravated by an external force (e.g. the player). - Decane
 - Fixed a script typo preventing the Lost Party's PDA from being transferred to Sakharov upon talking to him following completion of the task to retrieve it. - Decane
 - Fixed the audio of an NPC's instrument-playing animation continuing to play even when the animation is interrupted by the NPC getting up intermittently. - Decane
