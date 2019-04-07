@@ -50,3 +50,4 @@ Changes:
 - Fixed faction reward tooltips failing to update to reflect new rewards after resuming progress from a savegame in which the player already has an outstanding reward from the relevant faction. - Decane
 - Fixed the mechanic specialization tooltip displaying 'none' for Aydar, Yar, and Thunderov, despite all of them having a specialization. - Decane
 - Fixed the HUD bleeding icon being misaligned with its background in widescreen mode. - Armada
+- Fixed the invalid compound vector comparison in shader mark_msaa_edges.ps. - GSC Game World
