@@ -372,6 +372,13 @@
 			<options_item entry="r__detail_density" group="mm_opt_video_adv"/>
 		</track_detail_density>
 
+		<cap_detail_radius x="20" y="0" width="143" height="21">
+			<text font="letterica16" color="ui_6">ui_mm_detail_radius</text>
+		</cap_detail_radius>
+		<track_detail_radius x="194" y="0" width="245" height="21" step="4" is_integer="1">
+			<options_item entry="r__detail_radius" group="mm_opt_video_adv" depend="vid"/>
+		</track_detail_radius>
+
 		<cap_texture_lod x="20" y="0" width="143" height="21" >
 			<text font="letterica16" color="ui_6">ui_mm_texture_quality</text>
 		</cap_texture_lod>
@@ -408,6 +415,13 @@
 		<check_r2_sun x="194" y="0" width="30" height="21">
 			<options_item entry="r2_sun" group="mm_opt_video"/>
 		</check_r2_sun>
+
+		<cap_r2_sun_details x="20" y="0" width="143" height="21">
+			<text font="letterica16" color="ui_6">ui_mm_r2_sun_details</text>
+		</cap_r2_sun_details>
+		<check_r2_sun_details x="194" y="0" width="30" height="21">
+			<options_item entry="r2_sun_details" group="mm_opt_video_adv"/>
+		</check_r2_sun_details>
 
     <cap_r1_no_detail_textures x="20" y="0" width="143" height="21">
       <text font="letterica16" color="ui_6">ui_mm_r1_no_detail_textures</text>
