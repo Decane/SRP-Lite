@@ -970,9 +970,8 @@ end
 -- ірешнуть игру (после вvвода сооб	ения об ошибке в лог)
 function abort(fmt, ...)
 	local reason = string.format(fmt, ...)
-	assert("ERROR: " .. reason)
-	error_log("ERROR: " .. reason)
-	log(string.format("%s",nil))
+	error_log("Abort(): "..reason)
+	error(reason, 2)
 end
 
 function set_postprocess(name_ini_file)

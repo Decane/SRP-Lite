@@ -53,3 +53,4 @@ Changes:
 - Fixed the mechanic specialization tooltip displaying 'none' for Aydar, Yar, and Thunderov, despite all of them having a specialization. - Decane
 - Fixed the HUD bleeding icon being misaligned with its background in widescreen mode. - Armada
 - Fixed the invalid compound vector comparison in shader mark_msaa_edges.ps. - GSC Game World
+- Improved the accuracy of the error message printed by _G.abort(). - Decane
