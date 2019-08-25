@@ -51,6 +51,7 @@ Changes:
 - Fixed the audio of an NPC's instrument-playing animation continuing to play even when the animation is interrupted by the NPC getting up intermittently. - Decane
 - Fixed faction reward tooltips failing to update to reflect new rewards after resuming progress from a savegame in which the player already has an outstanding reward from the relevant faction. - Decane
 - Fixed the mechanic specialization tooltip displaying 'none' for Aydar, Yar, and Thunderov, despite all of them having a specialization. - Decane
+- Fixed the Abandoned Hospital not having a magnifiable map in the PDA. - Decane
 - Fixed the HUD bleeding icon being misaligned with its background in widescreen mode. - Armada
 - Fixed the invalid compound vector comparison in shader mark_msaa_edges.ps. - GSC Game World
 - Improved the accuracy of the error message printed by _G.abort(). - Decane
