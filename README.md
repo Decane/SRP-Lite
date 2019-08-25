@@ -55,3 +55,4 @@ Changes:
 - Fixed the HUD bleeding icon being misaligned with its background in widescreen mode. - Armada
 - Fixed the invalid compound vector comparison in shader mark_msaa_edges.ps. - GSC Game World
 - Improved the accuracy of the error message printed by _G.abort(). - Decane
+- Removed the Akm 74/2 introduced into Scar's starting inventory by patch v1.5.09 (new game required for effect). - Decane

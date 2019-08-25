@@ -9,7 +9,7 @@
     <team>Actor</team>
     <supplies>
       [spawn] \n
-      wpn_ak74 \n
+;     wpn_ak74 \n
       novice_outfit \n
       device_torch \n
       wpn_binoc \n
