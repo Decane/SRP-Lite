@@ -56,5 +56,6 @@ Changes:
 - Fixed the invalid compound vector comparison in shader mark_msaa_edges.ps. - GSC Game World
 - Improved the accuracy of the error message printed by _G.abort(). - Decane
 - Fixed the Sunrise Suit using the Leather Jacket HUD model instead of its own. - Kill_the_Strelok
+- Fixed the Bandit Jacket using the Sunrise Suit HUD model. The Bandit Jacket now has its own unique HUD model, imported from S.T.A.L.K.E.R. - Call of Pripyat. - Decane, GSC Game World
 - Replaced the generic masked face of the player's unarmored character model with Scar's face, as in the leather jacket armored character model (new game required for effect). - Decane
 - Removed the Akm 74/2 introduced into Scar's starting inventory by patch v1.5.09 (new game required for effect). - Decane
