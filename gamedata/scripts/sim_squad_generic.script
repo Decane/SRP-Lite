@@ -931,6 +931,11 @@ function sim_squad_generic:load(packet, registred)
 	end
 	--printf("load squad %s smart_id %s", self.squad_id, tostring(self.smart_id))
 
+	if self.name == "sim_squad_generic" then
+		local smart_info = self.smart_id and self.board.smarts[self.smart_id]
+		self:init_squad(smart_info and smart_info.smrt) -- let's allow loaded generic squads to spawn box items, too
+	end
+
 	self.assigned_target_smart_id = packet:r_u16()
 	if self.assigned_target_smart_id == 65535 then
 		self.assigned_target_smart_id = nil
