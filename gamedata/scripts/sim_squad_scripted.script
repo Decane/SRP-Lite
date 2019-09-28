@@ -297,7 +297,9 @@ function sim_squad_scripted:load(packet)
 	sim_squad_generic.sim_squad_generic.load(self, packet)
 	set_save_marker(packet, "load", false, "sim_squad_scripted")
 
-	self:init_squad()
+	local smart_id = self.smart_id
+	local smart_info = smart_id and self.board.smarts[smart_id]
+	self:init_squad(smart_info and smart_info.smrt)
 
 	self.next_target = packet:r_u8()
 	if self.next_target == 255 then
