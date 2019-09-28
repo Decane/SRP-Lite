@@ -30,6 +30,7 @@ Changes:
 - Fixed the script bugs responsible for Drifter and Hound dying upon switching online from an offline state following completion of the tasks to escort them to safety. - Decane
 - Fixed the issue where the dogs spawned for Wolf's "Help the stalker" task might never attack Drifter if the player picks up Sidorovich's loot before taking the task. - Decane
 - Fixed the issue where the stalker squad overlooking the Cordon vehicle station would not budge when they are supposed to raid it alongside the player in exchange for payment if Valerian has not yet tasked the player with assaulting it as part of the main storyline (new game required for effect). - Decane
+- Fixed the issue where the player could bypass the space restrictor that completes Clear Sky's "Find the generator" task by entering the institute building through its eastern entrance (new game required for effect). - Decane
 - Fixed Clear Sky's "Find a way to Chernobyl NPP" task not completing. - Decane
 - Fixed Clear Sky's "Find generator" task not completing when the player deactivates the generator in Limansk if the task is still active then. - Decane
 - Fixed Clear Sky's "Return to the group commander" task not cancelling when the player deactivates the generator in Limansk if the task is still active then. - Decane
