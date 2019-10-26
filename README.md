@@ -63,4 +63,5 @@ Changes:
 - Fixed the Bandit Jacket using the Sunrise Suit HUD model. The Bandit Jacket now has its own unique HUD model, imported from S.T.A.L.K.E.R. - Call of Pripyat. - Decane, GSC Game World
 - Fixed the SEVA Suit using the Bulat Armored Suit HUD model. The SEVA Suit now has its own unique HUD model, imported from S.T.A.L.K.E.R. - Call of Pripyat. - Decane, GSC Game World
 - Replaced the generic masked face of the player's unarmored character model with Scar's face, as in the leather jacket armored character model (new game required for effect). - Decane
+- Fixed the alignment of the off-center 'Game over' text and accompanying flashing prompt in widescreen mode. - Decane
 - Removed the Akm 74/2 introduced into Scar's starting inventory by patch v1.5.09 (new game required for effect). - Decane
