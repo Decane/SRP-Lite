@@ -40,6 +40,7 @@ Changes:
 - Fixed the issue where submitting the item requested in a 'return item' task would not complete the task if the player possesses multiple units of the item when submitting it. - Decane
 - Fixed the Red Forest bridge lowering sequence becoming prematurely unlocked as soon as the player completes the "Go to the army base" task rather than only after the player has transmitted the coordinates to free Leshiy's squad from the space bubble. - Decane
 - Fixed the exploit where the player could repeatedly break the Compass artifact submission dialog and re-enter it to receive the reward (a Vintar BC) again and again an endless amount of times. - Decane
+- Fixed the greeting audio of some NPCs — most notably Professor Beanpolev — occasionally playing over their first spoken dialogue when the player opens a dialogue window with them. - Decane
 - Fixed the issue where the dialog concerning the military presence at the Cordon vehicle station could be repeated endlessly with the stalker squad on the hill overlooking it, potentially leading to the player paying the stalker squad multiple times for their assistance in dealing with the military. - Decane
 - Fixed the issue where the player could pay the stalker squad on the hill overlooking the Cordon vehicle station for their assistance in dealing with the vehicle station military squad even after the military squad has already been liquidated. - Decane
 - Fixed the "Life support system" upgrade for the Freedom Exoskeleton making the player bleed out faster rather than slower as intended. - Talrivian
