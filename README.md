@@ -66,4 +66,5 @@ Changes:
 - Replaced the generic masked face of the player's unarmored character model with Scar's face, as in the leather jacket armored character model (new game required for effect). - Decane
 - Fixed the alignment of the off-center 'Game over' text and accompanying flashing prompt in widescreen mode. - Decane
 - Fixed some strings in the credits being rendered incorrectly with the Russian localization. - SurDno
+- Fixed the German voice acting credits being misattributed to English voice actors. - SurDno
 - Removed the Akm 74/2 introduced into Scar's starting inventory by patch v1.5.09 (new game required for effect). - Decane
