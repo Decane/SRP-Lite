@@ -531,40 +531,40 @@
 					<text align="c" font="letterica25" color="ui_6">st_ger_voice_actors</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="124" y="330" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="r" font="graffiti32" color="ui_white">st_kaplan</text>
+					<text align="r" font="graffiti32" color="ui_white">st_barrenstein</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="436" y="330" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="l" font="graffiti32" color="ui_white">st_blum</text>
+					<text align="l" font="graffiti32" color="ui_white">st_benjamin</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="124" y="360" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="r" font="graffiti32" color="ui_white">st_ward</text>
+					<text align="r" font="graffiti32" color="ui_white">st_betz</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="436" y="360" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="l" font="graffiti32" color="ui_white">st_pulcini</text>
+					<text align="l" font="graffiti32" color="ui_white">st_bornern</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="124" y="390" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="r" font="graffiti32" color="ui_white">st_horan</text>
+					<text align="r" font="graffiti32" color="ui_white">st_evertz</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="436" y="390" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="l" font="graffiti32" color="ui_white">st_agranov</text>
+					<text align="l" font="graffiti32" color="ui_white">st_grober</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="124" y="420" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="r" font="graffiti32" color="ui_white">st_atkin</text>
+					<text align="r" font="graffiti32" color="ui_white">st_hauf</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="436" y="420" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="l" font="graffiti32" color="ui_white">st_downes</text>
+					<text align="l" font="graffiti32" color="ui_white">st_heynold</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="124" y="450" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="r" font="graffiti32" color="ui_white">st_proctort</text>
+					<text align="r" font="graffiti32" color="ui_white">st_karadeniz</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="436" y="450" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="l" font="graffiti32" color="ui_white">st_stanton</text>
+					<text align="l" font="graffiti32" color="ui_white">st_lindenau</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="124" y="480" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="r" font="graffiti32" color="ui_white">st_albrech</text>
+					<text align="r" font="graffiti32" color="ui_white">st_schafer</text>
 				</auto_static>
 				<auto_static start_time="159" length_sec="10" x="436" y="480" width="300" height="40" light_anim="credits_head" la_cyclic="0" la_texture="0" la_alpha="1">
-					<text align="l" font="graffiti32" color="ui_white">st_szarabajka</text>
+					<text align="l" font="graffiti32" color="ui_white">st_wachholz</text>
 				</auto_static>
 
 
