@@ -10,6 +10,28 @@ function is_squad_leader(actor, npc)
 	return npc:id() == squad.commander_id
 end
 
+function is_squad_idle(npc)
+
+	local squad = db.storage[npc:id()].squad_obj
+
+	if squad == nil then
+		abort("[task_dialogs.is_squad_idle]: Squad for NPC with ID %s is nil!", npc:id())
+	end
+
+	if squad.current_action and squad.current_action.name == "attack_point" then
+		return false
+	end
+
+	local combat = squad.board.smarts[squad.sim_combat_id].smrt.combat_manager
+	local combat_stage = combat.squads[squad.squad_id]._stage
+
+	return combat_stage == "idle"
+end
+
+function isnt_squad_idle(npc)
+	return not is_squad_idle(npc)
+end
+
 --' Пытаемся инициализировать квесты отряда
 function init_squad_task(actor, npc, p1, p2)
 	local squad = db.storage[npc:id()].squad_obj
@@ -28,19 +50,6 @@ function squad_has_tasks(npc, actor, p1, p2)
 	if squad == nil then
 		return false
 	end
-	if(squad.current_action) and (squad.current_action.name=="attack_point") then
-		return false
-	end
-
-	-- Нужно взять sim_combat сквада
-	local combat = squad.board.smarts[squad.sim_combat_id].smrt.combat_manager
-	-- У него взять текущее состояние
-	local combat_stage = combat.squads[squad.squad_id]._stage
-	-- Таск выдавать только если оно равно idle
-	if combat_stage ~= "idle" then
-		return false
-	end
-
 
 	for k,v in pairs(squad.random_tasks) do
 		if(task_manager.get_task_manager():get_task_by_entity_id(v).status~="selected") then
