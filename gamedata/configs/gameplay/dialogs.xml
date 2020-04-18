@@ -729,7 +729,7 @@
                 <script_text>task_dialogs.create_task_answer_phrase</script_text>
                 <action>task_dialogs.squad_hasnt_capture_tasks</action>
             </phrase>
-            <phrase id="2">
+            <phrase id="5">
                 <text>tm_random_task_2</text>
                 <precondition>task_dialogs.squad_hasnt_tasks</precondition>
             </phrase>
@@ -792,6 +792,21 @@
                 <action>dialogs.break_dialog</action>
             </phrase>
             <phrase id="1">
+                <text/>
+                <precondition>task_dialogs.is_squad_idle</precondition>
+                <next>3</next>
+            </phrase>
+            <phrase id="2">
+                <text>tm_random_task_2</text>
+                <precondition>task_dialogs.isnt_squad_idle</precondition>
+            </phrase>
+            <phrase id="3">
+                <text/>
+                <action>task_dialogs.init_squad_task</action>
+                <next>4</next>
+                <next>5</next>
+            </phrase>
+            <phrase id="4">
                 <text>tm_random_task_1</text>
                 <precondition>task_dialogs.squad_has_tasks</precondition>
                 <action>task_dialogs.show_tasks</action>
@@ -803,7 +818,6 @@
             </phrase>
             <phrase id="0">
                 <text>tm_random_task_0</text>
-                <action>task_dialogs.init_squad_task</action>
                 <next>1</next>
                 <next>2</next>
             </phrase>
