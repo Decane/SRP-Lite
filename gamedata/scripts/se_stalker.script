@@ -244,7 +244,7 @@ function se_stalker:on_death(killer)
 			--print_table(self.board.squads)
 			abort("There is no squad with ID [%s]", self.squad_id)
 		end
-				squad:on_npc_death(self)
+				squad:on_npc_death(self, killer.id)
 		end
 end
 --------------------
