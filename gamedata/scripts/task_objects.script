@@ -1071,6 +1071,10 @@ function CDefendSmartTaskDelay:check_task(tm)
 	if target_obj.player_name ~= self.community  then
 		target_obj.combat_manager.combat_quest = "nil"
 		self.last_check_task = "fail"
+		local enemy_squad = self.board.squads[self.src_squad_id]
+		if enemy_squad then
+			enemy_squad.delayed_attack_task = nil
+		end
 		return
 	end
 
@@ -1161,6 +1165,10 @@ function CDefendSmartTaskDelay:reverse_task()
 	self.last_check_task = "reversed"
 	local target_obj = self.board.smarts[self.target].smrt
 	target_obj.combat_manager.combat_quest = "nil"
+	local enemy_squad = self.board.squads[self.src_squad_id]
+	if enemy_squad then
+		enemy_squad.delayed_attack_task = nil
+	end
 end
 --' Деактивация квеста
 function CDefendSmartTaskDelay:deactivate_task(task)
