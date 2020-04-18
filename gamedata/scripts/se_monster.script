@@ -201,7 +201,7 @@ function se_monster:on_death(killer)
 
 	if self.squad_id ~= nil then
 		local squad = self.board.squads[self.squad_id]
-				squad:on_npc_death(self)
+				squad:on_npc_death(self, killer.id)
 		end
 end
 --------------------
