@@ -104,7 +104,7 @@ function actor_hasnt_device_pda_driver(first_speaker, second_speaker)
 end
 
 function give_money_for_support(first_speaker, second_speaker)
-		dialogs.relocate_money(first_speaker, 500, "out")
+		dialogs.relocate_money(second_speaker, 500, "out")
 end
 
 
