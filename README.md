@@ -48,6 +48,7 @@ Changes:
 - Fixed the greeting audio of some NPCs — most notably Professor Beanpolev — occasionally playing over their first spoken dialogue when the player opens a dialogue window with them. - Decane
 - Fixed the issue where the dialog concerning the military presence at the Cordon vehicle station could be repeated endlessly with the stalker squad on the hill overlooking it, potentially leading to the player paying the stalker squad multiple times for their assistance in dealing with the military. - Decane
 - Fixed the issue where the player could pay the stalker squad on the hill overlooking the Cordon vehicle station for their assistance in dealing with the vehicle station military squad even after the military squad has already been liquidated. - Decane
+- Fixed the issue where the player would be rejected from playing the shooting minigame if their money precisely matches the entry fee instead of exceeding it. - Decane
 - Fixed the "Life support system" upgrade for the Freedom Exoskeleton making the player bleed out faster rather than slower as intended. - Talrivian
 - Fixed the "Relief backpack" upgrade for various armors wrongly incrementing the carry weight tooltip value by only 5kg instead of the 15kg actually unlocked by the upgrade. - vlad54rus
 - Fixed the upgrades unlocked by the "Flash drive with data on a psy-protection system" and the "Flash drive with data on reinforced army body armor" being swapped for the SEVA suit at the Garbage bandit mechanic. - Decane
